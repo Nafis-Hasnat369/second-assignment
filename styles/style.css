@@ -160,8 +160,12 @@ footer{
     width: 32px;
     height: 32px;
 }
+.icon:hover{
+    color: red;
+}
 .footer-text{
     font-size: 18px;
+    color: blue;
 }
 /* -------------------
     Media Queries
