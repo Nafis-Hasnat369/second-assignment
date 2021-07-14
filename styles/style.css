@@ -180,7 +180,6 @@ footer{
     header{
         display: grid;
         grid-template-columns:repeat(1, 1fr);
-
     }
     .header-text{
         font-weight: bold;
@@ -246,5 +245,35 @@ footer{
     .footer-image img{
         width: 275px;
         height: 63px;
+    }
+}
+/*------------------
+         Tablet Devices 
+    ------------------ */
+@media only screen and (min-width:689px) and (max-width:993px) {
+    header{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .players{
+        margin: 10px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-row-gap: 24px;
+    }
+    .highlights{
+        margin: 10px;
+    }
+    .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        box-shadow: 0px 2px 10px 2px rgba(150, 54, 54, 0.945);
+        padding: 10px;
+        border-radius: 10px;
+        grid-row-gap: 29px;
+    }
+    .footer-out{
+        margin: 10px;
+        margin-bottom: 63px white;
     }
 }
