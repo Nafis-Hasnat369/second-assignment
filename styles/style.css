@@ -38,6 +38,9 @@ header{
     border-radius: 15px;
     padding: 10px 24px;
 }
+.link-button:hover{
+    background-image: linear-gradient(orange, orangered);
+}
 .header-image{
     margin-top: 153px;
     margin-right: 140.99px;
@@ -46,10 +49,11 @@ header{
 .header-image img{
     width: 556.01px;
     height: 438px;
+    transition: transform .8s ease-in-out;
 }
 .header-image:hover img{
     transform: scale(1.1) rotate(15deg);
-    transition: transform 1s ease-in-out;
+    
 }
 /*----------------
      Players
